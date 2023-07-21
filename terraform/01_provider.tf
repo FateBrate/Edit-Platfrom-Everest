@@ -4,7 +4,7 @@ terraform {
     key            = "ct360-everest-tfstate/master_state.tfstate"
     region         = "eu-central-1"
     encrypt        = true
-    dynamodb_table = "ct360-everest-tfstate"
+    dynamodb_table = "ct360-team-everest-tfstate"
     # role_arn       = "arn:aws:iam::164400546917:role/OrganizationAccountAccessRole" # Only use this if you want to have one user account in root that has permissions in subaccounts
     }    
   required_providers {
